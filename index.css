@@ -1,6 +1,9 @@
 body {
-    background-color: coral;
     margin-top: 95px;
+}
+
+main {
+    background-color: coral;
 }
 
 #zijbalk {
