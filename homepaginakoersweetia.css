@@ -1,0 +1,48 @@
+body {
+    background-color: coral;
+    margin-top: 95px;
+}
+
+#zijbalk {
+    display: block;
+}
+
+#bovenbalk {
+    height: 80px;
+    background-color: white;
+    width: 100%;
+    border-bottom: 1.5px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#flexNavigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0;
+    gap: 10px;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.flexElement {
+    width: 300px;
+    display: block;
+}
+
+.foto {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1.5px solid black;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    #zijbalk {
+        display: none;
+    }
+}
