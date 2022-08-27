@@ -1,9 +1,11 @@
 body {
-    margin-top: 95px;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     background-color: coral;
+    margin-top: 95px;
 }
 
 #zijbalk {
