@@ -51,6 +51,7 @@ header {
 
     .mijnDiv2 {
         max-width: 390px;
+        margin: auto;
     }
 
     #bovenbalk {
